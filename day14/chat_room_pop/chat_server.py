@@ -3,6 +3,12 @@
 
     author: chujian
     email: ronangu@foxmail.com
+
+    communication protocol: #分隔
+    协议头         协议中部            协议尾部
+    JOIN        昵称|server            状态
+    CHAT            昵称               消息
+    QUIT            昵称
 """
 from socket import *
 from multiprocessing import Process
